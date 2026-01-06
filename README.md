@@ -1,8 +1,6 @@
-\# Mathematical Modeling of Epidemics Using the SIR Model
+# Mathematical Modeling of Epidemics Using the SIR Model
 
-
-
-\## Overview
+## Overview
 
 This project investigates the spread of infectious diseases using the classical
 
@@ -12,45 +10,35 @@ how differential equations and numerical methods can be used to analyze epidemic
 
 dynamics and assess the impact of public health interventions.
 
+---
 
 
-The project is intentionally focused on \*\*mathematical reasoning\*\* rather than
-
-black-box machine learning techniques.
-
-
-
-\## Problem Statement
+## Problem Statement
 
 Understanding how diseases spread is essential for effective public health planning.
 
 This project addresses the following questions:
 
+- How does an infectious disease evolve over time?
+
+- How do infection and recovery rates influence epidemic peaks?
+
+- How effective are interventions such as lockdowns?
 
 
-\- How does an infectious disease evolve over time?
+## Methodology
 
-\- How do infection and recovery rates influence epidemic peaks?
+- Formulation of the SIR model as a system of ordinary differential equations
 
-\- How effective are interventions such as lockdowns?
+- Numerical solution using SciPy’s ODE solvers
 
+- Scenario-based simulations to analyze intervention strategies
 
-
-\## Methodology
-
-\- Formulation of the SIR model as a system of ordinary differential equations
-
-\- Numerical solution using SciPy’s ODE solvers
-
-\- Scenario-based simulations to analyze intervention strategies
-
-\- Visualization and interpretation of results
+- Visualization and interpretation of results
 
 
 
-\## Project Structure
-
-
+## Project Structure
 
 ```
 
@@ -70,27 +58,23 @@ epidemic-modeling-sir/
 
 ├── README.md
 
-
-
 ```
 
+## Tools and Technologies
 
+- Python
 
-\## Tools and Technologies
+- NumPy
 
-\- Python
+- SciPy
 
-\- NumPy
+- Matplotlib
 
-\- SciPy
-
-\- Matplotlib
-
-\- Google Colab
+- Google Colab
 
 
 
-\## Results Summary
+## Results Summary
 
 The simulations show that reducing the infection rate significantly lowers
 
@@ -100,29 +84,29 @@ highlight the value of mathematical modeling in guiding real-world policy decisi
 
 
 
-\## Limitations
+## Limitations
 
-\- Assumes homogeneous mixing of the population
+- Assumes homogeneous mixing of the population
 
-\- No demographic or spatial structure
+- No demographic or spatial structure
 
-\- Permanent immunity after recovery
-
-
-
-\## Future Work
-
-\- Extension to SEIR and vaccination models
-
-\- Parameter estimation using real epidemiological data
-
-\- Incorporation of stochastic effects
+- Permanent immunity after recovery
 
 
 
-\## Author
+## Future Work
 
-Your Name  
+- Extension to SEIR and vaccination models
+
+- Parameter estimation using real epidemiological data
+
+- Incorporation of stochastic effects
+
+
+
+## Author
+
+Misgana(proall22)
 
 Software Engineering Graduate  
 
